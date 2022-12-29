@@ -11,8 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+:root{
+
+  --fontFamily:"Inter"
+}
+
+body{
+
+  font-family: var(--fontFamily);
+}
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+/* <link rel="stylesheet" href="node_modules/react-table/react-table.css"> */
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url("../src/Fonts/Fonts/Inter-Regular.ttf") format('truetype');
+  
+}
+
 @font-face {
   font-family: 'InterBold';
-  src: local('InterBold'), url("../src/Fonts/Fonts/Inter-Regular.ttf") format('truetype');
+  src: local('InterBold'), url("../src/Fonts/Fonts/Inter-Bold.ttf") format('truetype');
   
 }

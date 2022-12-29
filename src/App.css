@@ -1,5 +1,16 @@
+:root{
+
+  --fontFamily:"Inter"
+}
+
 .App {
   text-align: center;
+
+}
+
+body{
+
+  font-family: var(--fontFamily);
 }
 
 .App-logo {

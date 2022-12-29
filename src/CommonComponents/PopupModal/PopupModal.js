@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Button from "../Button/Button";
+import CustomButton from "../CustomButton/CustomButton";
 function PopupModal({ children, handleClose, title, show, handleSave,modalClass }) {
   return (
     <div className={show ? "modal d-block" : "modal"} tabindex="-1">
@@ -22,15 +22,15 @@ function PopupModal({ children, handleClose, title, show, handleSave,modalClass 
         <button type="button" className="btn btn-primary">Save changes</button> */}
 
             <div>
-              <Button
+              <CustomButton
                 type="button"
-                text="Save"
+                text=  "Save"
                 handler={handleSave}
-                btnClass="btn btn-primary"
+                btnClass="btn btn-success"
               />{" "}
             </div>
             <div>
-              <Button
+              <CustomButton
                 type="button"
                 text="Cancel"
                 handler={handleClose}
