@@ -41,7 +41,6 @@ function TestWrapper() {
 
   const handleCancel = () => {
     setOpenModal(false);
-    console.log("cancle");
   };
 
   const handleOpen = () => {
@@ -49,7 +48,6 @@ function TestWrapper() {
   };
 
   const handleSave = () => {
-    console.log("Save Clicked");
   };
 
   // const handleChange = (data) => {
